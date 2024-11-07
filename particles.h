@@ -11,7 +11,7 @@ void initialize_particles(particle* p, int n, int WINDOW_WIDTH, int WINDOW_HEIGH
     int rows = (int)sqrt(n);
     int cols = (n + rows - 1) / rows;
 
-    int r = 10; // Assuming all particles have the same radius
+    int r = 25; // Assuming all particles have the same radius
     int diameter = 2 * r;
 
     // Calculate spacing to ensure no overlap

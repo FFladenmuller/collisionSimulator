@@ -1,6 +1,6 @@
 #ifndef STRUCTS_H
 #define STRUCTS_H
-#define MAX_SIZE 300
+#define MAX_SIZE 6
 
 
 typedef struct {

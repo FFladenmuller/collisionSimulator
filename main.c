@@ -8,7 +8,7 @@
 #define WINDOW_HEIGHT (600)
 
 int main(int argc, char *args[]) {
-    int n = 300; // number of balls
+    int n = 6; // number of balls
     int close_requested = 0;
     particle* particles = (particle*)calloc(n, sizeof(particle)); // initialize array for particles or balls
     float u0 = 2000;
